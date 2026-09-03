@@ -70,6 +70,15 @@ pip install -e 'packages/markitdown[all]'
 
 ## Usage
 
+### Desktop GUI
+
+This fork includes an unofficial desktop GUI in `packages/markitdown-desktop`.
+It is a PySide6 application for converting local files to Markdown with MarkItDown, with drag-and-drop input, a file table, per-file status, output preview, batch conversion, output-folder saving, and retry support for failed conversions.
+
+The desktop package is not affiliated with or endorsed by Microsoft. It is distributed under the same MIT license as MarkItDown and keeps the upstream copyright notice intact.
+
+For development and Windows packaging instructions, see [`packages/markitdown-desktop/README.md`](packages/markitdown-desktop/README.md).
+
 ### Command-Line
 
 ```bash
